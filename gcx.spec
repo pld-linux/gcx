@@ -3,7 +3,7 @@ Summary(pl):	Program do sterowania aparatem i redukcji danych
 Name:		gcx
 Version:	0.8.5
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications/Science
 Source0:	http://astro.corlan.net/gcx/%{name}-%{version}.tar.gz
 # Source0-md5:	21d323e59b533014101bd310ab3dcc8d
@@ -40,7 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
