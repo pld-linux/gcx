@@ -1,12 +1,12 @@
 Summary:	Camera control and data reduction program
 Summary(pl):	Program do sterowania aparatem i redukcji danych
 Name:		gcx
-Version:	0.8.7
+Version:	0.8.8
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Science
 Source0:	http://astro.corlan.net/gcx/%{name}-%{version}.tar.gz
-# Source0-md5:	7e05caf8b60d9b180e2d6405117baa43
+# Source0-md5:	61e30144404e6a6ede9b92b4d2ec09c7
 URL:		http://astro.corlan.net/gcx/
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
