@@ -1,4 +1,5 @@
 Summary:	Camera control and data reduction program
+Summary(pl):	Program do sterowania aparatem i redukcji danych
 Name:		gcx
 Version:	0.7.6
 Release:	0.1
@@ -18,11 +19,19 @@ ensemble photometry data reduction, multi-frame color coefficient
 fitting, extinction coefficient fitting, and all-sky photometry. It
 also controls CCD cameras and telescopes.
 
+%description -l pl
+GCX dostarcza pe³ny zestaw funkcji do redunkcji danych dla fotometrii
+CCD wraz z dopasowywaniem klatek WCD, automatyczn± identyfikacj± celu,
+fotometri± apertury celu i standardowych gwiazd, redukcj± danych
+fotometrii ca³o¶ciowej pojedynczej klatki, dopasowywaniem
+wspó³czynników kolorów dla wielu klatek, dopasowywaniem wspó³czynników
+ekstynkcji oraz fotometri± ca³ego nieba. Steruje tak¿e aparatami i
+teleskopami CCD.
+
 %prep
 %setup -q
 
 %build
-
 %configure
 %{__make}
 
