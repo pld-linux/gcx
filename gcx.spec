@@ -20,7 +20,7 @@ fitting, extinction coefficient fitting, and all-sky photometry. It
 also controls CCD cameras and telescopes.
 
 %description -l pl
-GCX dostarcza pe³ny zestaw funkcji do redunkcji danych dla fotometrii
+GCX dostarcza pe³ny zestaw funkcji do redukcji danych dla fotometrii
 CCD wraz z dopasowywaniem klatek WCD, automatyczn± identyfikacj± celu,
 fotometri± apertury celu i standardowych gwiazd, redukcj± danych
 fotometrii ca³o¶ciowej pojedynczej klatki, dopasowywaniem
