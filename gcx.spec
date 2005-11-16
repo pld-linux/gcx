@@ -5,9 +5,9 @@ Version:	0.8.8
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Science
-Source0:	http://astro.corlan.net/gcx/%{name}-%{version}.tar.gz
+Source0:	http://gcx.sourceforge.net/%{name}-%{version}.tar.gz
 # Source0-md5:	61e30144404e6a6ede9b92b4d2ec09c7
-URL:		http://astro.corlan.net/gcx/
+URL:		http://gcx.sourceforge.net/
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
