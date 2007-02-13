@@ -1,5 +1,5 @@
 Summary:	Camera control and data reduction program
-Summary(pl.UTF-8):   Program do sterowania aparatem i redukcji danych
+Summary(pl.UTF-8):	Program do sterowania aparatem i redukcji danych
 Name:		gcx
 Version:	0.8.8
 Release:	1
